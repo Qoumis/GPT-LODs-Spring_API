@@ -27,7 +27,8 @@ import GPT.ChatGPT;
                                               "<pre> 2. Fact checking with and without entity recognition of Chat GPT's responses." +
                                               "<pre> 3. Fact checking with and without entity recognition of plain text." +
                                               "<pre> 4. Fact validation for 2 & 3 in a single step." +
-                                              "<pre> 5. Fact validation separately (by providing the generated triples as input)"))
+                                              "<pre> 5. Fact validation separately (by providing the generated triples as input)" +
+                                              "<pre> <pre>Detailed information about each service, including instructions on how to make calls (required body parameters etc.), is available in this <a href=\"https://docs.google.com/document/d/1yX4NzmvTXj3ggCYVsoXMEVnbruUuC-pYbOqb_0QE0dM\" target=\"_blank\">spreadsheet</a>"))
 @RequestMapping("/GPT-LODsPlus/rest-API")
 public class GptLodsSpringbootApplication {
 
